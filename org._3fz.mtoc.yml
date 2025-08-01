@@ -4,7 +4,7 @@ runtime-version: '6.9'
 sdk: org.kde.Sdk
 command: mtoc_app
 rename-desktop-file: mtoc.desktop
-rename-icon: mtoc
+rename-icon: org._3fz.mtoc
 finish-args:
     # Display
     - --socket=wayland
@@ -33,4 +33,4 @@ modules:
     sources:
       - type: git
         url: https://github.com/asa-degroff/mtoc.git
-        commit: 9412a368f072008e953c70cadb1cd25bc4b3150a
+        commit: b5a0e9427c175f5c55654dc9444f3b44c04b23f6
