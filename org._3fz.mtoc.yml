@@ -11,6 +11,7 @@ finish-args:
     - --socket=fallback-x11
     - --share=ipc
     - --device=dri
+    - --talk-name=org.kde.StatusNotifierWatcher
 
     # Audio
     - --socket=pulseaudio
@@ -33,4 +34,4 @@ modules:
     sources:
       - type: git
         url: https://github.com/asa-degroff/mtoc.git
-        commit: def82e85c8ebb84c6a3571bda49f14e0f61cd953
+        commit: 03ddaaa421714bbb7f6fee056471f4c5be7d42d9
