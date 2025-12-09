@@ -34,4 +34,4 @@ modules:
     sources:
       - type: git
         url: https://github.com/asa-degroff/mtoc.git
-        commit: 7b8227a8041881b7d26d0bf3b206eb63ff7b6442
+        commit: 32812597b7f66127e2cfb8a90d2d3c27b51b5da3
