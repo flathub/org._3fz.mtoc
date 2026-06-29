@@ -1,6 +1,6 @@
 app-id: org._3fz.mtoc
 runtime: org.kde.Platform
-runtime-version: '6.9'
+runtime-version: '6.10'
 sdk: org.kde.Sdk
 command: mtoc_app
 rename-desktop-file: mtoc.desktop
@@ -12,19 +12,10 @@ finish-args:
     - --share=ipc
     - --device=dri
     - --talk-name=org.kde.StatusNotifierWatcher
-
     # Audio
     - --socket=pulseaudio
-
     # File access - Music directory only
     - --filesystem=xdg-music
-
-cleanup:
-  - /include
-  - /lib/pkgconfig
-  - /share/pkgconfig
-  - '*.la'
-  - '*.a'
 
 modules:
   - name: mtoc
